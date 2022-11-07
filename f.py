@@ -141,7 +141,7 @@ def classifyunderstandings(understandings, of):                                 
                                 sumofunions += unionlen                         # Gather statistics
                                 if intersectionlen == 0: emptyintersections += 1
                                 truthindex = truths[testindex]
-                                resulttuples.append((i, jaccardscore, candmoniform, payload[testindex][0], payload[testindex][i + 1], truthindex)) # extraxt target and candidate texts from payload. offset 0 is target, rest are candidates
+                                resulttuples.append((i, jaccardscore, candmoniform, payload[testindex][0], payload[testindex][i + 1], truthindex)) # extract target and candidate texts from payload. offset 0 is target, rest are candidates
                             else: failures += 1
 
                             ## End of loop over candidates
