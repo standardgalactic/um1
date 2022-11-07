@@ -14,7 +14,7 @@ logjaccard = True                                                              #
 logoutcomes = False                                                             # Print outcomes of individual tests as single position characters. "=" means ambiguous. "?" means problems. Red is wrong, green is correct guess
 logmisc = False                                                                 # Set this True to see other details of tests
 
-logtexts = True                                                                 # These texts are quite verbose so we sometimes tunr these off. They only appear if logjaccard is True
+logtexts = True                                                                 # These texts are quite verbose so we sometimes turn these off. They only appear if logjaccard is True
 logmoniforms = False                                                            # These moniforms are even more verbose so we turn these off unless we really need them. They only appear if logjaccard is True
 
 testpath = 'chat-200.tsv'                                                       # Test file with 200 string classification tests based on data form Quora Question Pairs (QQP) test benchmark. Feel free to edit those or provide a different file
